@@ -8,7 +8,7 @@
 [Swagger is configured for REST documentation, you will be able to test the API through Swagger also]
 
 # Brief API Info:
-[User Resource]
+[User Resource]  
 POST: /api/user/login 	
  	Request [ Enter user and deviceType] || Response [JWT token]
 GET: /api/user/details 	
