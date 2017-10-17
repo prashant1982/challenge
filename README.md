@@ -11,8 +11,10 @@
 [User Resource]  
 POST: /api/user/login  
  	Request [ Enter user and deviceType] || Response [JWT token]  
+	
 GET: /api/user/details  
  	Request [Authorization : Bearer <JWT token>] || Response [User details]  
+	
 DELETE: /api/user/logout  
  	Request [Authorization : Bearer <JWT token>]  
   
